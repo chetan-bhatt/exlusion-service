@@ -1,0 +1,18 @@
+package com.ex.rest.controller;
+
+public class RegisterError {
+
+	private String message;
+
+	public RegisterError(String message) {
+		this.message = message;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+}
